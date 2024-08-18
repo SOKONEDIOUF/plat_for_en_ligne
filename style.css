@@ -1,0 +1,639 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    
+}
+/* style bare de navigation */
+.navbar
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 15px;
+    background-color: #2f35ff;
+    margin-bottom: 13px;
+    position: fixed;
+    width: 100%;
+}
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+}
+.acc
+{
+    background-color: #fff;
+    color: #000 !important;
+    padding: 10px;
+}
+.naviga:hover
+{
+    background-color: #fff;
+    color: #000 ;
+    padding: 10px;
+}
+.logo
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50% ;
+    margin-right: 9;
+        
+}
+.log
+{
+    display: flex;
+    margin-right: 50px;
+}
+.list
+{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 7px;
+    padding: 10px;
+}
+#toggler ,.navbar label i
+{
+    display: none;
+}
+/* mon bannier(bienvenue)*/
+.mon-r
+{
+    font-size: 120px;
+    color:rgb(207, 137, 41); 
+    
+}
+/* style mon  petite texte*/
+.p-text
+{
+    margin-top: 25px;
+    padding: 20px;
+    height: 200px;
+    background-color: #5ad15a;
+    color: #fff;
+}
+.batime
+{
+    width: 300px;
+    height: 400px;
+    float: right;
+}
+.presantation
+{
+    text-align: center;
+    background-color: #2f35ff;
+    padding: 10px;
+    margin: 25px 0;
+    color: #fff;
+}
+.imagework
+{
+
+    width: 150px;
+    margin: 30px;
+
+}
+.groupimage
+{
+    display: flex;
+}
+/*style liste des formation*/
+.image-log
+{
+    width: 100px;
+    height: 70px;
+}
+.formation
+{
+    margin-top: 25px;
+}
+.imag
+{
+    float: right;
+    width: 75%;
+    height: 50%;
+    margin: 5px;
+}
+.formation a{
+    text-decoration: none;
+}
+.formation
+{
+    font-size: 20px;
+   
+}
+.represente
+{
+    padding: 25px;
+    margin-top: 25px;
+    background-color: rgb(207, 137, 41); 
+    margin-bottom: 25px;
+    color: #fff;
+
+}
+/*style liste details*/
+table
+{
+    width: 100%;
+}
+td,th{
+    border: 2px solid #2f35ff ;
+    text-align: center;
+    font-size: 30px;
+}
+.log_for
+{
+    width: 90px;
+    height: 50px;
+    float: right;
+}
+td a{
+    text-decoration: none;
+}
+td img
+{
+    width: 100%;
+    height: 300px;
+    margin-right: 100px;
+}
+th{
+    background-color: #2f35ff;
+    color: #fff;
+    border: rgb(207, 137, 41);
+}
+
+/* style  details des cours d une formation */
+.java,.javascript,.php,.html-css
+{
+    margin: 15px;
+}
+.java h1,.php h1 ,.javascript h1,.html-css>h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 25px;
+    color: #fff;
+    background-color: green;
+   
+}
+.document{
+    color: rgb(207, 137, 41);
+    font-size: 40px;
+    text-align: center;
+    background-color: #000;
+    padding: 13px;
+    margin-bottom: 20px;
+}
+.java img{
+    float: left;
+    margin-right: 12px;
+    width: 200px;
+}
+.COURS{
+    background-color: #2f35ff;
+    color: #fff;
+    padding: 25px;
+}
+iframe
+{
+    margin-left: 40px;
+    width: 400px;
+    height: 250px;
+}
+.cou-vid
+{
+    justify-content: center;
+   
+    margin: 25px;
+}
+.php img
+{
+    width: 200px;
+    height: 150px;
+    float: inline-end;
+}
+.javascript img
+{
+    float: right;
+}
+.html-css img
+{
+    float: right;
+    width: 300px;
+    height: 150px;
+}
+/* style image */
+.grimage
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+.gourpimage
+{
+   
+    padding: 12px;
+    margin: 25px;
+    box-shadow: 0 0 25px wheat;
+}
+.grimage img{
+    width: 150px;
+    height: 100px;
+}
+.grimage h6
+{
+    text-align: center;
+
+}
+.mes-etudiant
+{
+    text-align: center;
+    margin: 25px;
+    padding: 10px;
+    background-color: #2f35ff;
+    color: #fff;
+}
+/*  style apropos */
+.apropos
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: wheat;
+    margin: 25px 0;
+}
+#apropos h3{
+    text-align: center;
+    margin: 25px;
+}
+.about{
+    text-align: center;
+    
+}
+.apropos p{
+    margin: 13px;
+    padding: 5px;
+}
+.personne
+{
+  display: flex;
+}
+.personne div{
+    margin: 25px;
+    padding: 10px;
+    box-shadow: 0 0 25px wheat;
+}
+.personne img
+{
+    width: 200px;
+    height: 100px;
+    
+    display: flex;
+    margin: 0 auto;
+}
+.personne h3,.personne h5,.personne p{
+    text-align: center;
+}
+
+#missonvaleur
+{
+    background-color: aqua;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.mis-val
+{
+    text-align: center;
+    margin: 25px;
+}
+.miss
+{
+    padding: 25px;
+    margin-bottom: 25px;
+}
+.valeur
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+   
+}
+.valeur img
+{
+    width: 100px;
+    height: 70px;
+}
+.valeur div
+{
+    border: 1px solid;
+    margin: 20px;
+    padding: 13px;
+    background-color: antiquewhite;
+}
+.valeur samp
+{
+    justify-content: center;
+    margin-left: 25px;
+}
+#missonvaleur p
+{
+    font-size: 25px;
+}
+/* style contact */
+.contact
+{
+    text-align: center;
+    background-color: #2f35ff;
+    color: #fff;
+    padding: 40px;
+    min-height: 100vh;
+}
+.cont h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+    
+}
+.cont{
+  max-width: 800%;
+  margin: 0 auto;
+}
+.c-wtr
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+}
+.c-pf
+{
+    text-align: left;
+}
+.c-pf h3
+{
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.form-gr
+{
+    margin-bottom: 25px;
+}
+input,textarea
+{
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+}
+label
+{
+    margin: 13px;
+}
+button
+{
+    display: inline-block;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    background-color: #5ad15a;
+    border-radius: 95px;
+    border: none;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25px;
+    
+}
+.con-infos
+{
+   text-align: left;
+   font-size: 25px;
+   margin-bottom: 25px;
+}
+.con-infos p
+{
+   margin-bottom: 10px;
+}
+.con-infos i
+{
+   margin-bottom: 10px;
+   margin-right: 12px;
+}
+button:hover{
+    background-color: aquamarine;
+}
+
+ /* style page de conexion */
+#conexion
+{ 
+  background-color: #2196f3; 
+  padding: 10px;
+  width: 100%;
+  margin: 25px  0px;
+}
+.formepase
+{
+   max-width: 300px;
+   margin: auto;
+   text-align: center;
+   background-color: #2196f3;
+   
+}
+.icon-conecte
+{ 
+  display: flex;
+  justify-content: space-around;  
+  margin: 50px;
+}
+.social-icon
+{ 
+  font-size: 24px; 
+  border: 1px solid;
+  border-radius: 100% ;
+  width: 40px; 
+  text-align: center;
+  padding: 5px;
+  margin-left: 10px;
+  color: #fff;
+}
+.formcon p,.formcon h1{ 
+  color: #fff;
+}
+.groupe
+{
+   margin-bottom: 20px; 
+   padding: 5px; 
+  
+   margin: 12px;
+}
+.groupe input 
+{
+   width: 100%;
+   padding: 10px; 
+   border: 1px solid white; 
+   background-color: white;
+}
+.formcon button
+{
+    color:#fff;
+    border: none;
+}
+.mot-pp
+
+{ 
+  text-align: center;
+  display: block;
+  color: #fff;
+  margin-top: 10px; 
+  text-decoration: none;
+}
+.formcon button:hover
+{
+    color:#fff;
+    border: none;
+    background-color: rgb(207, 137, 41);;
+}
+.Connnexion1
+{
+    background-color: #2f35ff;
+    color: #fff;
+    margin: 25px;
+    
+}
+.Connnexion2
+{
+    background-color: rgb(207, 137, 41);
+    padding: 25px;
+
+}
+.Connnexion1 i{
+    color: #fff;
+}
+.bkfot
+{
+    background-color: #2f35ff;
+    padding: 12px;
+}
+.wpp
+{
+    font-size: 40px;
+}
+/* responsivite */
+@media screen and (max-width:900px)
+{
+     
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        
+    }
+    .list{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .navbar label i{
+        display:inline-flex;
+        align-items: center;
+        cursor: pointer;
+        margin: 15px;
+        font-size: 20px;
+    }
+    #toggler:checked ~ .menu{
+        max-height: 100%;
+    }
+    td img
+    {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+
+    }
+    td,th{
+    border: 2px solid #2f35ff ;
+    text-align: center;
+    font-size: 20px;
+    }
+    .log_for
+    {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: auto;
+    }
+    .batime
+    {
+        width: 130px;
+        height: 90px;
+        float: right;
+    }
+    .p-text
+    {
+        height: 250px;
+    
+    }
+    .imag
+    {
+        float: right;
+        width: 50%;
+        height: 95vh;
+        margin-bottom: 25px;
+       
+    }
+    .formation
+    {
+        font-size: 15px;
+        margin-left: 0;
+    }
+    .imagework
+    {
+    
+        width: 100px;
+        margin: 70px 10px;
+    }
+    .image-log
+    {
+       width: 70px;
+       height: 50px;
+    }
+    .grimage
+    {
+        display: grid;
+        grid-template-columns: auto auto ;
+        justify-content: space-around;
+    }
+    .personne
+    {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .contact
+    {
+        padding: 20px;
+    }
+    .c-wtr
+    {
+        
+        grid-template-columns: 1fr;
+        
+    }
+    .Connnexion2
+    {
+        background-color: #2f35ff!important;
+        padding: 25px;
+    }
+    .Connnexion1
+    {
+        background-color: #2f35ff!important;
+        padding: 25px;
+    }
+    
+
+    
+
+}
+
+   
+    
+    
